@@ -1,28 +1,28 @@
 {
-  "name": "driver-os-monitor",
+  "name": "pi-hat-driver",
   "version": "0.3.0",
-  "description": "Databox driver to log local os",
+  "description": "Databox driver for Pi-HAT",
   "config": {
     "registry": "registry.iotdatabox.com"
   },
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/driver.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/me-box/driver-os-monitor.git"
+    "url": "https://github.com/mmalekzadeh/pi-hat-driver"
   },
   "keywords": [
     "docker",
     "personal",
     "data"
   ],
-  "author": "Anthony Brown <Anthony.Brown@nottingham.ac.uk> ()",
+  "author": "Moh Malek <m.malekzadeh@imperial.ac.uk> ()",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/me-box/driver-os-monitor/issues"
+    "url": "https://github.com/mmalekzadeh/pi-hat-driver/issues"
   },
-  "homepage": "https://github.com/me-box/driver-os-monitor",
+  "homepage": "https://github.com/mmalekzadeh/pi-hat-driver",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",

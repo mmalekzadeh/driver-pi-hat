@@ -4,21 +4,22 @@
 	"name": "pi-hat-driver",
 	"version": "0.3.0",
 
-	"description": "A Databox mmalekzadeh",
-	"author": "Anthony Brown <Anthony.Brown@nottingham.ac.uk> ()",
+	"description": "A Databox Driver for Pi-HAT ",
+	"author": "Moh Malek <m.malekzadeh@imperial.ac.uk> ()",
 	"license": "MIT",
 
 	"databox-type":"driver",
 
 	"tags": [
-		"monitor",
-		"os"
+		"Pi",
+		"Hat",
+		"Sensors"
 	],
 
-	"homepage": "https://github.com/me-box/pi-hat-driver",
+	"homepage": "https://github.com/mmalekzadeh/pi-hat-driver",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/me-box/pi-hat-driver.git"
+		"url": "git+https://github.com/mmalekzadeh/pi-hat-driver"
 	},
 
 	"resource-requirements": {
