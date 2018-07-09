@@ -6,7 +6,7 @@
     "registry": "registry.iotdatabox.com"
   },
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/driver.js"
   },
   "repository": {
     "type": "git",
