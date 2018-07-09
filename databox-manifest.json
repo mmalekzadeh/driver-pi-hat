@@ -1,0 +1,27 @@
+{
+	"manifest-version": 1,
+
+	"name": "pi-hat-driver",
+	"version": "0.3.0",
+
+	"description": "A Databox mmalekzadeh",
+	"author": "Anthony Brown <Anthony.Brown@nottingham.ac.uk> ()",
+	"license": "MIT",
+
+	"databox-type":"driver",
+
+	"tags": [
+		"monitor",
+		"os"
+	],
+
+	"homepage": "https://github.com/me-box/pi-hat-driver",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/me-box/pi-hat-driver.git"
+	},
+
+	"resource-requirements": {
+    	"store":"core-store"
+	}
+}
