@@ -24,7 +24,7 @@ app.get("/status", function(req, res) {
 });
 
 app.get("/ui", function(req, res) {
-  res.send("<h1>Coming Soon.... 4 </h1>");
+  res.send("<h1>Coming Soon.... 5 </h1>");
 });
 
 
