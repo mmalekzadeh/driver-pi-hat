@@ -1,5 +1,5 @@
 {
-  "name": "pi-hat-driver",
+  "name": "driver-pi-hat",
   "version": "0.0.1",
   "description": "Databox Pi Hat Driver",
   "config": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmalekzadeh/pi-hat-driver.git"
+    "url": "git+https://github.com/mmalekzadeh/driver-pi-hat.git"
   },
   "keywords": [
     "docker",
@@ -20,9 +20,9 @@
   "author": "Mohammad Malekzadeh <m.malekzadeh@imperial.ac.uk> ()",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmalekzadeh/pi-hat-driver/issues"
+    "url": "https://github.com/mmalekzadeh/driver-pi-hat/issues"
   },
-  "homepage": "https://github.com/mmalekzadeh/pi-hat-driver.git",
+  "homepage": "https://github.com/mmalekzadeh/driver-pi-hat.git",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
