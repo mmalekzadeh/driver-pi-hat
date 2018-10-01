@@ -16,10 +16,10 @@
 		"sensor"
 	],
 
-	"homepage": "https://github.com/me-box/driver-pi-hat",
+	"homepage": "https://github.com/mmalekzadeh/driver-pi-hat",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/me-box/driver-pi-hat.git"
+		"url": "git+https://github.com/mmalekzadeh/driver-pi-hat.git"
 	},
 
 	"resource-requirements": {
