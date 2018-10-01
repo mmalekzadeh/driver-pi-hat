@@ -6,7 +6,18 @@
     "registry": "registry.iotdatabox.com"
   },
   "scripts": {
-    "start": "node src/driver.js"
+    "start": "node src/driver.js",
+    "build": "docker build -t databox/driver-pi-hat .",
+    "deploy": "docker tag databox/driver-pi-hat $npm_package_config_registry/driver-pi-hat && docker push $npm_package_config_registry/driver-pi-hat",
+    "build-arm": "docker build -f Dockerfile-arm -t databox/driver-pi-hat-arm .",
+    "deploy-arm": "docker tag databox/driver-pi-hat-arm $npm_package_config_registry/driver-pi-hat-arm && docker push $npm_package_config_registry/driver-pi-hat-arm",
+    "clean": "node ./node_modules/modclean/bin/modclean.js -p ./node_modules/ -r",
+    "getshell": "docker exec -i -t driver-pi-hat /bin/bash",
+    "kill": "docker kill driver-pi-hat",
+    "attach": "docker attach driver-pi-hat",
+    "shell": "docker run -i -t databox/driver-pi-hat /bin/bash",
+    "local": "docker run -i -t databox/driver-pi-hat",
+    "tail": "docker logs -f driver-pi-hat"
   },
   "repository": {
     "type": "git",
@@ -24,10 +35,11 @@
   },
   "homepage": "https://github.com/mmalekzadeh/driver-pi-hat.git",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "node-databox": "^0.7.7",
-    "request": "^2.85.0",
-    "ws": "^5.2.1"
+    "modclean": "^2.1.2",
+    "node-databox": "^0.8.0",
+    "request": "^2.88.0",
+    "ws": "^3.3.1"
   }
 }
